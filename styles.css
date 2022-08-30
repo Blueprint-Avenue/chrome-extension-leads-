@@ -19,9 +19,40 @@ button{
     color: #fff;
     cursor: pointer;
     font-weight: bold;
+    min-width: 400px;
 }
 
 button:hover{
     background-color: #E94560;
     color: #fff;
+}
+
+#delete-btn{
+    padding: 10px;
+        margin-top: 5px;
+        background-color: #E94560;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+        min-width: 400px;
+}
+
+#delete-btn:hover {
+    background-color: #533483;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #E94560;
 }
